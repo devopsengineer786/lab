@@ -2,5 +2,5 @@ name: My First Workflow
 runs-on: self-hosted
 jobs:
     steps: 
-    - name: Run CMD Commands
-      run: pwd
+     - name: Run CMD Commands
+       run: pwd
