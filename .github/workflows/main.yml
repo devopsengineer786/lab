@@ -1,14 +1,12 @@
 name: My First Workflow
 on:
-  push:
+  pull_request:
     branches:
       - master
 jobs:
   build:
     runs-on:  Red Hat Enterprise Linux 8.0
     steps: 
-    - name: Checkout Repository
-      uses: actions/checkout@v2
     - name: Run CMD Commands
       run: |
           echo "Hello, World!"  # Example command
