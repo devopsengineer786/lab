@@ -1,6 +1,6 @@
 name: My First Workflow
 runs-on: self-hosted
-  pull_request:
+pull_request:
     branches:
       - master
 jobs:
@@ -10,5 +10,3 @@ jobs:
     - name: Run CMD Commands
       run: |
           pwd
-
-          
