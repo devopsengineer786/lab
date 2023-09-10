@@ -9,6 +9,4 @@ jobs:
     steps: 
     - name: Run CMD Commands
       run: |
-          echo "Hello, World!"  # Example command
-          dir  # Another example command
-    
+          pwd
