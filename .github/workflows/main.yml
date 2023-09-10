@@ -1,11 +1,6 @@
 name: My First Workflow
 runs-on: self-hosted
-pull_request:
-    branches:
-      - master
 jobs:
-  build:
-    runs-on:  ubuntu-lates
     steps: 
     - name: Run CMD Commands
       run: |
