@@ -3,5 +3,4 @@ runs-on: self-hosted
 jobs:
     steps: 
     - name: Run CMD Commands
-      run: |
-          pwd
+      run: pwd
