@@ -1,6 +1,6 @@
 name: My First Workflow
 on:
-  workflow_dispatch: main.yml 
+  runs-on: self-hosted
   jobs:
    run-command:
     runs-on: self-hosted
