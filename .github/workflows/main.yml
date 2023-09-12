@@ -1,7 +1,5 @@
 name: My First Workflow
-runs-on: self-hosted
-  
-  jobs:
+jobs:
    run-command:
     runs-on: self-hosted
 steps: 
