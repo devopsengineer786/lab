@@ -1,6 +1,11 @@
 name: My First Workflow
 runs-on: self-hosted
 jobs:
-    steps: 
-     - name: Run CMD Commands
-       run: pwd
+steps: 
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Run CMD command
+      run: |
+        # Replace the following line with the command you want to run
+        cmd "pwd"
