@@ -1,7 +1,7 @@
 name: My First Workflow
 on:
-  workflow_dispatch: # This enables manual triggering
-jobs:
+  workflow_dispatch: main.yml 
+  jobs:
    run-command:
     runs-on: self-hosted
 steps: 
