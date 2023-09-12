@@ -1,5 +1,6 @@
 name: My First Workflow
-runs-on: self-hosted
+on:
+  workflow_dispatch: # This enables manual triggering
 jobs:
 steps: 
     - name: Check out code
