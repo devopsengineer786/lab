@@ -1,6 +1,6 @@
 name: My First Workflow
-on:
-  runs-on: self-hosted
+runs-on: self-hosted
+  
   jobs:
    run-command:
     runs-on: self-hosted
